@@ -1,58 +1,161 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Nathan Rathbun</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+    <title>Nathan Rathbun</title>
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-
-<body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="col-sm-6">
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="index.html">Nate | Rathbun</a>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60" onload="myFunction()">
+    <div class="header">
+        <div class="bg-color">
+            <header id="main-header">
+                <nav class="navbar navbar-default navbar-fixed-top">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <ul class="nav navbar-nav navbar-left navbar-border">
+                                <li><a href="#main-header">Nathan | Rathbun</a></li>
+                            </ul>
+                        </div>
+                        <div class="collapse navbar-collapse" id="mainmenu">
+                            <ul class="nav navbar-nav navbar-right navbar-border">
+                                <li class="active"><a href="#main-header">Home</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#projects">Projects</a></li>
+                                <li><a href="#Resume">Resume</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <div class="wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 wow fadeIn delay-05s">
+                            <div class="banner-text">
+                                <h2>Nathan Rathbun</h2>
+                                <p>I'm here to chew bubble<br />gum and write clean code.</p>
+                            </div>
+                            <div class="overlay-detail text-center">
+                                <a href="#about"><i class="fa fa-angle-down"></i></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About Me</a></li>
-                    <li><a href="resume.html">Resume</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li></li>
-                </ul>
-            </div>
-            <div class="col-sm-6">
-                <ul class="link-list">
-                    <li class="media-link"><a href="https://www.facebook.com/naterathbun"><i class="fa fa-facebook-official fa-2x fa-cog" aria-hidden="true"></i></a></li>
-                    <li class="media-link"><a href="https://twitter.com/naterathbun"><i class="fa fa-twitter-square fa-2x fa-cog" aria-hidden="true"></i></a></li>
-                    <li class="media-link"><a href="https://www.linkedin.com/in/naterathbun"><i class="fa fa-linkedin-square fa-2x fa-cog" aria-hidden="true"></i></a></li>
-                    <li class="media-link"><a href="https://github.com/naterathbun"><i class="fa fa-github fa-2x fa-cog" aria-hidden="true"></i></a></li>
-                </ul>
             </div>
         </div>
-    </nav>
-
-    <div class="frontcenter">
-        <h1 class="centerheading">Nate Rathbun</h1>
-        <p class="centerp">Software Developer, Cleveland, Ohio</p>
     </div>
+    <section id="about" class="section-padding wow fadeIn delay-05s">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-right">
+                    <h2 class="title-text">
+                        Nathan Rathbun
+                    </h2>
+                </div>
+                <div class="col-md-6 text-left">
+                    <div class="about-text">
+                        <p><br />Innovative and detail-oriented developer with substantial background in international business, supply-chain and project management. Enthusiastic and self-motivated with a love of design and the drive to continuously learn and grow. Articulate communicator with extensive experience collaborating in diverse teams and a speaker of business-level Japanese.</p>
+
+                        <p>C# .Net Framework, HTML5, CSS3, JavaScript and JQuery, ASP.Net MVC, Git and version control, JSON, SQL, Visual Studio, LUA and Scripting, Object-Oriented Programming and Design, Pair Programming, Test-Driven Development and TSLC practices, basic web application security.</p>
+                        <p>&nbsp;</p>
+                        <ul class="abt-list">
+                            <li>- Graduate, Tech Elevator, C# Coding Bootcamp</li>
+                            <li>- BA in Telecommunications, Michigan State University.</li>
+                            <li>- Minor in Japanese Language</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="section-padding wow fadeInUp delay-05s">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="title text-center">What I'm working on</h2>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="Resume" class="section-padding wow fadeInUp">
+        <div class="container">
+            <div class="row">
+                <h2 class="title text-center">My resume</h2>
+                <div class="test-sec">
+                    <div class="col-sm-4">
+                        <blockquote>
+                            <p>Nathan is extremely intelligent, articulate and very much a team player. I always told him he hit the ground running and was easy to manage. When Nathan handled a project, it was so thorough, accurate and he always looked forward to the next step. He never just went through the motions and had a managers mind for looking at the bigger picture. Any company will be lucky to have him as a future hire.</p>
+                        </blockquote>
+                        <div class="carousel-info">
+                            <div class="pull-left"> <span class="testimonials-name">Holly Curanovic</span> <span class="testimonials-post">Lear Corporation</span> </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <blockquote>
+                            <p>I worked with many volunteer Area Leaders, none of whom had Nathan's drive and enthusiasm. I never once saw him hesitate to find a way to help a JET in need, even when doing so was well outside the realm of his job description. I highly recommend Nathan for his attitude, work ethic, leadership, and desire to learn.</p>
+                        </blockquote>
+                        <div class="carousel-info">
+                            <div class="pull-left"> <span class="testimonials-name">Joanna Clark</span> <span class="testimonials-post">Municipal Prefectural Advisor, JET Program</span> </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <blockquote>
+                            <p>I'm going to add another quote here when I have one to put on. It'll be a really great quote and probably talk about that time I fought a bear. That was really cool, the bear never stood a chance. That's what you get when you go up against me, bear.</p>
+                        </blockquote>
+                        <div class="carousel-info">
+                            <div class="pull-left"> <span class="testimonials-name">Grizzly Adams</span> <span class="testimonials-post">An actual bear</span> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="section-padding wow fadeIn delay-05s">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="contact-sec text-center">
+                        <h2>Contact</h2>
+                        <p>Nathan Rathbun, Cleveland Ohio</p>
+                        <p><a href="https://github.com/naterathbun">Github</a> <a href="https://www.linkedin.com/in/naterathbun">LinkedIn</a></a></p>
+                    </div>
+                </div>
+                <div class="col-md-8 col-md-push-2">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer-2 text-center-xs bg--white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="footer">
+                    </div>
+                </div>
+                <div class="col-md-6 text-right">
+                    <ul class="social-list">
+                        <li><a href="https://github.com/naterathbun"><i class="fa fa-github fa-2x fa-cog" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/naterathbun"><i class="fa fa-linkedin-square fa-2x fa-cog" aria-hidden="true"></i></a></li>
+                        <li><a href="https://twitter.com/naterathbun"><i class="fa fa-twitter-square fa-2x fa-cog" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.facebook.com/naterathbun"><i class="fa fa-facebook-official fa-2x fa-cog" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/custom.js"></script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
