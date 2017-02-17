@@ -25,8 +25,20 @@ a {
     outline: none;
 }
 
+.working{
+    color: white;
+}
+
+.projects{
+    float: right;
+    width: 100%;
+    margin-bottom: 20px;
+}
 .fa-cog {
     color: black;
+}
+.fa-wht{
+    color: white;
 }
 
 a:hover, a:focus, a:active{
@@ -112,6 +124,7 @@ a:hover, a:focus, a:active{
 	background-size: cover;
 	margin-bottom: -3px;
 }
+
 .section-padding{
 	padding: 60px 0px;
 }
@@ -127,6 +140,7 @@ a:hover, a:focus, a:active{
 }
 .about-text p{
 	color: black;
+    font-size: 16px;
 }
 .abt-list li{
 	padding: 5px 0px;
@@ -134,9 +148,16 @@ a:hover, a:focus, a:active{
 	font-weight: 400;
     color: black;
 }
-#portfolio{
-	background-color: #f0f1e9;
+#projects {
+    width: 100%;
+    background-color: RGBA(8, 7, 7, 0.92);
 }
+
+#projects .btn-primary {
+    background: #BE2525;
+    border: 1px solid #BE2525;
+}
+
 .grid-padding{
 	padding: 0 8px;
 }
