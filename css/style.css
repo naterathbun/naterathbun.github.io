@@ -30,11 +30,10 @@ a {
 }
 
 .project-info{
-	border: 1px solid black;
-}
-.project-info{
 	padding: 20px;
 	color: black;
+    border: 1px solid black;
+    margin-bottom: 30px;
 }
 .project-info h3{
     text-align: center;
@@ -284,6 +283,7 @@ footer {
     padding: 16px 34px;
     font-size: 18px;
     transition: all 0.5s ease-in 0s;
+    margin-bottom: 10px;
 }
 .carousel-info, blockquote {
     float: left;
