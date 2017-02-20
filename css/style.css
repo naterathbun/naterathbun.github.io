@@ -31,27 +31,27 @@ a {
 
 .project-info{
 	padding: 20px;
-	color: black;
-    border: 1px solid black;
+	color: #e6f7ff;
+    border: 2px solid black;
     margin-bottom: 30px;
+    background-color: #123857;
 }
 .project-info h3{
     text-align: center;
 	padding-bottom: 16px;
-	color: black;
+	color: #e6f7ff;
 	font-weight: 600;
 }
 .project-info-btn {
     margin: 15px 10px 5px;
     display: inline-block;
     border: solid black 2px;
+    background-color: #e6f7ff;
     padding: 3px 8px;
     font-size: 12px;
     color: black;
-    font-weight: 400 !important;
     cursor: pointer;
 }
-
 
 .fa-cog {
     color: black;
@@ -277,11 +277,12 @@ footer {
 	padding-right: 15px;
 }
 .contact-sec a {
-    color: #FFF;
-    background-color: RGBA(174, 142, 142, 0.7);
+    color: #e6f7ff;
+    background-color: #123857;
     display: inline-block;
     padding: 16px 34px;
     font-size: 18px;
+    border: solid 2px black;
     transition: all 0.5s ease-in 0s;
     margin-bottom: 10px;
 }
